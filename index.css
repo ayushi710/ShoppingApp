@@ -42,11 +42,13 @@ h1,.container
 .btn-del
 {
     padding: 10px;
-    font-size: 20px;
+    font-size: 14px;
     float: right;
-    margin-right: 50px;
-    margin-top: 3px;
+    margin-right: 30px;
+    margin-top: -3px;
     outline: none;
+    border: none;
+    background-color: transparent;
 }
 .item:hover
 {
