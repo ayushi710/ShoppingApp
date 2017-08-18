@@ -2,8 +2,6 @@
 {
     width: 40%;
     margin: 0 30%;
-    
-    box-shadow: 1px 2px 3px 1px rgba(0,0,0,0.1);
 }
 h1,.container
 {
@@ -26,6 +24,7 @@ h1,.container
     font-size: 15px;
     padding: 10px;
     border: 1px solid #f1f1f1;
+    outline:none;
 }
 .btn
 {
@@ -33,6 +32,7 @@ h1,.container
     font-size: 15px;
     padding: 10px;
     border: 1px solid #47904a;
+    outline: none;
 }
 .btn:hover
 {
@@ -46,6 +46,7 @@ h1,.container
     float: right;
     margin-right: 50px;
     margin-top: 3px;
+    outline: none;
 }
 .item:hover
 {

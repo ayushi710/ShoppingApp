@@ -5,7 +5,11 @@ var app= angular.module("myApp",[]);
 app.controller("myCtrl",function ($scope) {
  $scope.items =["Milk","Bread","Cheese"];
  $scope.add = function (newItem) {
-     $scope.items.push(newItem);
+     if(newItem !== "")
+     {
+         $scope.items.push(newItem);
+     }
+
      $scope.newItem="";
  };
  $scope.deleteItem = function (item) {
