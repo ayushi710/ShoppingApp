@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shopping</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="angular.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+    <link rel="stylesheet" type="text/css" href="index.css">
+
+</head>
+<body ng-app="myApp" ng-controller="myCtrl">
+<div class="main">
+    <h1>My Shopping List</h1>
+    <div>
+
+        <div class="item" ng-repeat="item in items">
+            {{ item }}
+            <input type="button" value="X" ng-click="deleteItem(item)" class="btn-del">
+        </div>
+
+    </div>
+    <div class="container">
+        <input type="text" name="newItem" ng-model="newItem" class="addItem" placeholder="Add shopping item here">
+        <input type="button" value="Add Item" ng-click="add(newItem)" class="btn">
+
+    </div>
+
+</div>
+
+</body>
+</html>

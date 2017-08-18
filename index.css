@@ -1,0 +1,53 @@
+.main
+{
+    width: 40%;
+    margin: 0 30%;
+    
+    box-shadow: 1px 2px 3px 1px rgba(0,0,0,0.1);
+}
+h1,.container
+{
+    background-color: #444;
+    color: #f1f1f1;
+    font-family: sans-serif;
+    padding : 30px 10px;
+    font-weight: 300;
+}
+.item
+{
+    font-size: 25px;
+    padding: 10px;
+    box-shadow: 2px 2px 4px 1px rgba(0,0,0,0.2);
+    margin: 10px 0;
+}
+.addItem
+{
+    width: 76%;
+    font-size: 15px;
+    padding: 10px;
+    border: 1px solid #f1f1f1;
+}
+.btn
+{
+    background-color: #4CAF50;
+    font-size: 15px;
+    padding: 10px;
+    border: 1px solid #47904a;
+}
+.btn:hover
+{
+    background-color: #47904a;
+    color: #fff;
+}
+.btn-del
+{
+    padding: 10px;
+    font-size: 20px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 3px;
+}
+.item:hover
+{
+    background-color: #f1f1f1;
+}
